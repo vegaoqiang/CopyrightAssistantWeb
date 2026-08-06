@@ -6,7 +6,8 @@ if (toggle && nav) {
     const open = nav.classList.toggle('open');
     toggle.setAttribute('aria-expanded', String(open));
   });
-  nav.addEventListener('click', () => {
+  nav.addEventListener('click', (event) => {
+    if (!event.target.closest('a')) return;
     nav.classList.remove('open');
     toggle.setAttribute('aria-expanded', 'false');
   });
