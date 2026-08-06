@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="软助手 是一款在 Mac 本地扫描代码项目、整理文档样式并导出 PDF 的效率工具。">
+  <meta name="theme-color" content="#1f7a52">
+  <title>软助手 — 让代码材料整理更简单</title>
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="软助手 首页">
+      <span class="brand-mark"><img src="assets/app-icon.svg" alt=""></span>
+      <span>软助手</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="主导航">
+      <a href="#features">功能预览</a>
+      <a href="#workflow">使用流程</a>
+      <a href="privacy.html">隐私政策</a>
+      <a class="nav-cta" href="#experience">帮助支持</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orb orb-three"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow light">为 macOS 打造</p>
+        <h1>让代码材料整理<br>更简单</h1>
+        <p class="hero-lead">从项目扫描、内容筛选到 PDF 导出，<br>一次完成，全程留在你的 Mac。</p>
+        <div class="hero-actions">
+          <span class="app-store-badge" aria-label="Download on the Mac App Store">
+            <img src="assets/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the Mac App Store">
+          </span>
+        </div>
+        <p class="hero-note">无需账户 · 无广告 · 无追踪</p>
+      </div>
+      <div class="hero-product reveal">
+        <div class="icon-stage">
+          <img src="assets/app-icon.svg" alt="软助手 App 图标">
+        </div>
+      </div>
+    </section>
+
+    <section class="intro" id="features">
+      <p class="eyebrow">专注一件事</p>
+      <h2>从源代码到整洁文档，<br>少一点重复，多一点专注。</h2>
+      <p>软助手 将繁琐的材料整理流程收进一个清爽、直观的 macOS 应用。</p>
+      <div class="pill-row" aria-label="核心能力">
+        <span>智能扫描</span><span>灵活筛选</span><span>样式预览</span><span>PDF 导出</span>
+      </div>
+    </section>
+
+    <section class="feature feature-scan reveal">
+      <div class="feature-copy">
+        <span class="feature-number">01</span>
+        <p class="eyebrow">扫描项目</p>
+        <h2>把文件夹拖进来，<br>剩下的交给它。</h2>
+        <p>快速读取项目结构，统计文件与代码行数。支持 Xcode、VS Code、IntelliJ 等常见编辑器工程。</p>
+        <ul class="check-list">
+          <li>遵循 .gitignore 规则</li>
+          <li>跳过二进制、隐藏文件和符号链接</li>
+          <li>按目录与文件精细选择</li>
+        </ul>
+      </div>
+      <div class="app-shot tilted-right">
+        <img class="macbook-frame" src="assets/macbook-pro-space-black.png" alt="" aria-hidden="true" loading="lazy">
+        <div class="macbook-screen"><img src="assets/project-tree.png" alt="软助手 项目扫描与文件筛选界面" loading="lazy"></div>
+      </div>
+    </section>
+
+    <section class="feature feature-style reveal">
+      <div class="app-shot tilted-left">
+        <img class="macbook-frame" src="assets/macbook-pro-space-black.png" alt="" aria-hidden="true" loading="lazy">
+        <div class="macbook-screen"><img src="assets/style-preview.png" alt="软助手 文档样式设置与页面预览界面" loading="lazy"></div>
+      </div>
+      <div class="feature-copy">
+        <span class="feature-number">02</span>
+        <p class="eyebrow">设置样式</p>
+        <h2>每一页，都按你的方式呈现。</h2>
+        <p>设置交存范围、每页代码行数和 Markdown 渲染方式，页面预览会随设置同步更新。</p>
+        <div class="mini-grid"><div><b>30 / 40 / 50 / 60</b><span>每页代码行数</span></div><div><b>实时</b><span>页面样式预览</span></div></div>
+      </div>
+    </section>
+
+    <section class="feature feature-export reveal" id="experience">
+      <div class="feature-copy">
+        <span class="feature-number">03</span>
+        <p class="eyebrow">生成与导出</p>
+        <h2>预览确认，<br>然后轻松交付。</h2>
+        <p>生成完整文档后逐页检查，自定义文件名与保存位置，把整理好的代码材料导出为 PDF。</p>
+        <a class="button button-dark" href="#workflow">查看完整流程</a>
+      </div>
+      <div class="app-shot tilted-right">
+        <img class="macbook-frame" src="assets/macbook-pro-space-black.png" alt="" aria-hidden="true" loading="lazy">
+        <div class="macbook-screen"><img src="assets/pdf-export.png" alt="软助手 PDF 预览与导出界面" loading="lazy"></div>
+      </div>
+    </section>
+
+    <section class="privacy-band reveal">
+      <div><p class="eyebrow light">Privacy by design</p><h2>你的代码，始终是你的。</h2></div>
+      <div><p>扫描、筛选、生成与预览全部在设备本地完成。没有账户、广告、行为分析，也没有远程上传。</p><a class="button button-light" href="privacy.html">阅读隐私政策</a></div>
+    </section>
+
+    <section class="workflow" id="workflow">
+      <p class="eyebrow">简单三步</p><h2>打开、整理、导出。</h2>
+      <div class="steps">
+        <article><span>1</span><h3>选择项目</h3><p>拖入项目文件夹，应用自动读取目录与源码。</p></article>
+        <article><span>2</span><h3>调整规则</h3><p>筛选内容、设置交存范围和文档排版。</p></article>
+        <article><span>3</span><h3>导出 PDF</h3><p>预览生成结果，保存到你选择的本地位置。</p></article>
+      </div>
+    </section>
+
+    <section class="gallery reveal">
+      <div class="gallery-heading"><div><p class="eyebrow">产品一览</p><h2>熟悉的 Mac 体验。</h2></div><p>遵循 macOS 的交互习惯，界面清晰，操作自然。</p></div>
+      <div class="gallery-grid">
+        <figure><img src="assets/project-picker.png" alt="项目文件夹选择界面" loading="lazy"><figcaption>选择项目与筛选规则</figcaption></figure>
+        <figure><img src="assets/project-tree.png" alt="项目文件树界面" loading="lazy"><figcaption>清晰查看项目结构</figcaption></figure>
+        <figure><img src="assets/style-preview.png" alt="文档样式预览界面" loading="lazy"><figcaption>边设置，边预览</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="brand-mark"><img src="assets/app-icon.svg" alt=""></span><div><b>软助手</b><span>让代码材料整理更简单。</span></div></div>
+    <div class="footer-links"><a href="#features">功能</a><a href="privacy.html">隐私政策</a><a href="mailto:请填写开发者联系邮箱">联系我们</a></div>
+    <p class="copyright">© 2026 软助手. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
